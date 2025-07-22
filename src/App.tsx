@@ -11,7 +11,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <main className="p-4">
+      <main className="container mx-auto p-6">
         <Routes>
           <Route path="/" element={<BookList />} />
           <Route path="/books/:id" element={<BookPage />} />
